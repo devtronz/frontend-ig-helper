@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Public Media Viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="box">
+  <h2>Public Media Viewer</h2>
+
+  <p class="note">
+    ✔ No login • ✔ Public only • ✔ No downloads on server
+  </p>
+
+  <input id="url" placeholder="Paste Instagram post or reel link">
+  <button onclick="openEmbed()">Open Media</button>
+
+  <div id="frame"></div>
+
+  <p class="help">
+    Tip: Right-click (desktop) or long-press (mobile) on the video/image → Save
+  </p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
